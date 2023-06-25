@@ -20,7 +20,7 @@ Frame.Position = UDim2.new(0.006, 0,0.900, 0)
 Frame.Size = UDim2.new(0, 100,0, 30)
 
 TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(13, 105, 172)
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.BackgroundTransparency = 1.000
 TextButton.Size = UDim2.new(1, 0, 1, 0)
 TextButton.Font = Enum.Font.SourceSans
@@ -28,7 +28,7 @@ TextButton.Text = "Explan Toggle"
 TextButton.TextColor3 = Color3.fromRGB(196, 40, 28)
 TextButton.TextScaled = true
 TextButton.TextSize = 50.000
-TextButton.TextStrokeColor3 = Color3.fromRGB(27, 42, 53)
+TextButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextStrokeTransparency = 0.000
 TextButton.TextWrapped = true
 TextButton.MouseButton1Down:Connect(function()
