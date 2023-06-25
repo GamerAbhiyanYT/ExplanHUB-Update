@@ -14,21 +14,21 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+Frame.BackgroundColor3 = Color3.fromRGB(13, 105, 172)
 Frame.BackgroundTransparency = 0.500
 Frame.Position = UDim2.new(0.006, 0,0.900, 0)
 Frame.Size = UDim2.new(0, 100,0, 30)
 
 TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundColor3 = Color3.fromRGB(13, 105, 172)
 TextButton.BackgroundTransparency = 1.000
 TextButton.Size = UDim2.new(1, 0, 1, 0)
 TextButton.Font = Enum.Font.SourceSans
 TextButton.Text = "Explan Toggle"
-TextButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.TextColor3 = Color3.fromRGB(196, 40, 28)
 TextButton.TextScaled = true
 TextButton.TextSize = 50.000
-TextButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextStrokeColor3 = Color3.fromRGB(27, 42, 53)
 TextButton.TextStrokeTransparency = 0.000
 TextButton.TextWrapped = true
 TextButton.MouseButton1Down:Connect(function()
@@ -57,7 +57,7 @@ starterGui:SetCore("SendNotification",{
 Title = "Message GamerAbhiyan",
 Text = "Thanks You For Executing My Script"
 })
-local Window = Library.CreateLib("Universal Explan HUB | 【V3.2】", getgenv().Theme)
+local Window = Library.CreateLib("Universal Explan HUB | 【V4.0】", getgenv().Theme)
 local Tab = Window:NewTab("Recommended")
 local Section = Tab:NewSection("If You Die You Will Lose The Toggle")
 local Section = Tab:NewSection("And You Executed Again And Too")
@@ -738,7 +738,7 @@ Section:NewButton("Copy To ClipBoard", "Work Or Not Work?", function()
 end)
 local Section = Tab:NewSection("My Discord")
 Section:NewButton("Copy To ClipBoard", "Work Or Not Work?", function()
-	setclipboard("https://discord.gg/G3K4d8Eu")
+	setclipboard("I don't have discord :))
 end)
 local Tab = Window:NewTab("My Script")
 local Section = Tab:NewSection("= My Script =")
@@ -784,21 +784,14 @@ Title = "Message",
 Text = "Successfully Executed"
 })
 end)
-Section:NewButton("WalkSpeed GUI | MOVEABLE | AUTO UPDATE", "", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerAbhiyanYT/Script/main/SCRIPT%20%3D%20WalkSpeed%20GUI%20%7C%20MOVEABLE"))()
+Section:NewButton("Universal Explan HUB | 【V4.0】", "", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerAbhiyanYT/ExplanHUB-Updates/main/GamerAbhiyan"))()
 starterGui:SetCore("SendNotification",{
 Title = "Message",
 Text = "Successfully Executed"
 })
 end)
-Section:NewButton("WalkSpeed GUI TEST | MOVEABLE", "", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerAbhiyanYT/SCRIPT-test/main/SCRIPT%20%3D%20WalkSpeed%20TEST"))()
-starterGui:SetCore("SendNotification",{
-Title = "Message",
-Text = "Successfully Executed"
-})
-end)
-Section:NewButton("Credit", "What?, Wanna A Key?", function()
+Section:NewButton("Credit | Orion", "What?, Wanna A Key?", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerAbhiyanYT/SCRIPT-The-Real-CREDIT/main/SCRIPT%20%3D%20Credit"))()
 starterGui:SetCore("SendNotification",{
 Title = "Message",
