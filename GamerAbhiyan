@@ -73,7 +73,6 @@ Text = "Succeed To Bring Up Toggle"
 })
 end)
 local Section = Tab:NewSection("I Still Recommend To Always Press This After Executing This Script")
-local Section = Tab:NewSection("Press This Button To Bring Up Toggle Back")
 Section:NewButton("Rejoin Button On Disconnected", "Recommended Auto Executed", function()
 	starterGui:SetCore("SendNotification",{
 Title = "Message",
@@ -81,6 +80,11 @@ Text = "Successfully Executed And Just Press Once"
 })
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/rejoin%20button%20for%20kick%20message.lua"))()
 end)
+local Tab = Window:NewTab("Info")
+local Section = Tab:NewSection("Key Will Change Every 24 Hours")
+local Section = Tab:NewSection("When It Has Passed 24 Hours The Key Will Change")
+local Section = Tab:NewSection("The Key Will Change At My Random Hours In")
+local Section = Tab:NewSection("Game Spin The Wheel")
 local Tab = Window:NewTab("Home")
 local Section = Tab:NewSection("Speed")
 Section:NewSlider("WalkSpeed", "bruh", 50, 16, function(s) -- 50 (MaxValue) | 16 (MinValue)
