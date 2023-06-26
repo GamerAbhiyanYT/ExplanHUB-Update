@@ -144,6 +144,13 @@ Text = "JumpPower Off"
 })
     end
 end)
+local Section = Tab:NewSection("FieldOfView | FOV")
+Section:NewSlider("FeildOfView | FOV | Slider", " ", 120, 40, function(s) -- 120 (MaxValue) | 40 (MinValue)
+	game.workspace.CurrentCamera.FeildOfView = s
+end)
+Section:NewTextBox("FeildOfView | FOV | TextBox", " ", function(txt)
+	game.workspace.CurrentCamera.FeildOfView = txt
+end)
 local Section = Tab:NewSection("Reset | Reset In Game Not In Script Slider")
 Section:NewButton("Reset WalkSpeed To 16", "", function()
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
