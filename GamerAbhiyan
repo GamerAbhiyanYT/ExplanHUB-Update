@@ -174,7 +174,7 @@ Section:NewToggle("FieldOfView Auto 120", ":)", function(state)
         Workspace.CurrentCamera.FieldOfView = 120
 starterGui:SetCore("SendNotification",{
 Title = "Message",
-Text = "JumpPower On"
+Text = "FieldOfView On"
 })
     else
         Workspace.CurrentCamera.FieldOfView = 70
@@ -834,7 +834,7 @@ Text = "Successfully Executed"
 })
 end)
 Section:NewButton("Universal Explan HUB | 【V4.0】", "", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerAbhiyanYT/ExplanHUB-Updates/main/GamerAbhiyan"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerAbhiyanYT/ExplanHUB-New/main/Updates"))()
 starterGui:SetCore("SendNotification",{
 Title = "Message",
 Text = "Successfully Executed"
