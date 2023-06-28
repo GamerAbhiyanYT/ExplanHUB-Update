@@ -155,6 +155,35 @@ Text = "JumpPower Off"
 })
     end
 end)
+local Section = Tab:NewSection("FOV")
+Section:NewSlider("FieldOfView", "bruh", 120, 70, function(s) -- 120 (MaxValue) | 70 (MinValue)
+	Workspace.CurrentCamera.FieldOfView = s
+end)
+Section:NewTextBox("FieldOfView", "Type In A Number To Make The Speed U Want", function(txt)
+	Workspace.CurrentCamera.FieldOfView = txt
+end)
+Section:NewButton("FieldOfView Auto 120", " ", function()
+	Workspace.CurrentCamera.FieldOfView = 120
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "Successfully Executed"
+})
+end)
+Section:NewToggle("FieldOfView Auto 120", ":)", function(state)
+    if state then
+        Workspace.CurrentCamera.FieldOfView = 120
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "JumpPower On"
+})
+    else
+        Workspace.CurrentCamera.FieldOfView = 70
+        starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "FieldOfView Off"
+})
+    end
+end)
 local Section = Tab:NewSection("Reset | Reset In Game Not In Script Slider")
 Section:NewButton("Reset WalkSpeed To 16", "", function()
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
@@ -165,6 +194,13 @@ Text = "Successfully Executed"
 end)
 Section:NewButton("Reset JumpPower To 50", "", function()
 	game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "Successfully Executed"
+})
+end)
+Section:NewButton("Reset FieldOfView To 70", " ", function()
+	Workspace.CurrentCamera.FieldOfView = 70
 starterGui:SetCore("SendNotification",{
 Title = "Message",
 Text = "Successfully Executed"
