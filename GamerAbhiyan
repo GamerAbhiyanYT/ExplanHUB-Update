@@ -56,7 +56,7 @@ getgenv().Theme = "Serpent"
 ]]
 local starterGui = game:GetService("StarterGui")
 
-wait(0.5)
+wait(2)
 starterGui:SetCore("SendNotification",{
 Title = "Message GamerAbhiyan",
 Text = "Thanks You For Executing My Script"
@@ -70,7 +70,7 @@ Section:NewLabel("Or")
 local Section = Tab:NewSection("If You Die And Lose Toggle")
 local Section = Tab:NewSection("Press This Button To Bring Up Toggle Back")
 Section:NewButton("Bring up the Toggles", "Use This If You Lose The Toggle", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerAbhiyanYT/Explan/main/Toggle"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerAbhiyanYT/BringUpTheToggle/main/ExplanToggle"))()
 starterGui:SetCore("SendNotification",{
 Title = "Message",
 Text = "Succeed To Bring Up Toggle"
@@ -89,6 +89,13 @@ local Section = Tab:NewSection("Key Will Change Every 24 Hours")
 local Section = Tab:NewSection("When It Has Passed 24 Hours The Key Will Change")
 local Section = Tab:NewSection("The Key Will Change At My Random Hours In")
 local Section = Tab:NewSection("Game Spin The Wheel")
+Section:NewButton("Key = 3xpl4nHUb~W1th~Key~Upd4te", "Click To Copy", function()
+	setclipboard("3xpl4nHUb~W1th~Key~Upd4te")
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "Successfully Copy Key"
+})
+end)
 local Tab = Window:NewTab("Home")
 local Section = Tab:NewSection("Speed")
 Section:NewSlider("WalkSpeed", "bruh", 50, 16, function(s) -- 50 (MaxValue) | 16 (MinValue)
