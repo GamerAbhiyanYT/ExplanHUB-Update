@@ -743,6 +743,13 @@ Title = "Message",
 Text = "Successfully Executed"
 })
 end)
+Section:NewButton("Super Simon Says [NEW]", " ", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/special-octo-umbrella/main/Source'))()
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "Successfully Executed"
+})
+end)
 local Section = Tab:NewSection("【🔲】GUI / HUB")
 Section:NewButton("Give me another GUI / HUB script", "This it Not Button", function()
 	
