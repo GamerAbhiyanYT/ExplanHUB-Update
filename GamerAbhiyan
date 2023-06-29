@@ -89,8 +89,8 @@ local Section = Tab:NewSection("Key Will Change Every 24 Hours")
 local Section = Tab:NewSection("When It Has Passed 24 Hours The Key Will Change")
 local Section = Tab:NewSection("The Key Will Change At My Random Hours In")
 local Section = Tab:NewSection("Game Spin The Wheel")
-Section:NewButton("Key = 3xpl4nHUb~W1th~Key~Upd4te", "Click To Copy", function()
-	setclipboard("3xpl4nHUb~W1th~Key~Upd4te")
+Section:NewButton("Key = 3xpl4nHUBW1thK3y`Sy5t3m", "Click To Copy", function()
+	setclipboard("3xpl4nHUBW1thK3y`Sy5t3m")
 starterGui:SetCore("SendNotification",{
 Title = "Message",
 Text = "Successfully Copy Key"
