@@ -89,8 +89,8 @@ local Section = Tab:NewSection("Key Will Change Every 24 Hours")
 local Section = Tab:NewSection("When It Has Passed 24 Hours The Key Will Change")
 local Section = Tab:NewSection("The Key Will Change At My Random Hours In")
 local Section = Tab:NewSection("Game Spin The Wheel")
-Section:NewButton("Key = 3xpl4nHUBW1thK3y`Sy5t3m", "Click To Copy", function()
-	setclipboard("3xpl4nHUBW1thK3y`Sy5t3m")
+Section:NewButton("Key = O32c~Qe34q~R3cdO~HgcI", "Click To Copy", function()
+	setclipboard("O32c~Qe34q~R3cdO~HgcI")
 starterGui:SetCore("SendNotification",{
 Title = "Message",
 Text = "Successfully Copy Key"
@@ -708,6 +708,13 @@ Title = "Message",
 Text = "Successfully Executed"
 })
 end)
+Section:NewButton("Murder Mistery 2 | AutoFarm", " ", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0mm"))()
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "Successfully Executed"
+})
+end)
 Section:NewButton("Can't Say Word", "Bypass To Chat Can't You Say", function()
 	loadstring(game:HttpGet("https://scriptblox.com/raw/Cant-Say-the-Word-Lets-you-say-your-word-UNPATCHABLE-4679"))()
 starterGui:SetCore("SendNotification",{
@@ -783,7 +790,7 @@ end)
 local Tab = Window:NewTab("Credit")
 local Section = Tab:NewSection("= Showcase =")
 local Section = Tab:NewSection("   GamerAbhiyan")
-local Section = Tab:NewSection("   ???")
+local Section = Tab:NewSection("   ★ไก่5ดาว★")
 local Section = Tab:NewSection("   ???")
 local Section = Tab:NewSection("   ???")
 local Section = Tab:NewSection("= Owner =")
