@@ -56,7 +56,7 @@ getgenv().Theme = "Serpent"
 ]]
 local starterGui = game:GetService("StarterGui")
 
-wait(0.5)
+wait(2)
 starterGui:SetCore("SendNotification",{
 Title = "Message GamerAbhiyan",
 Text = "Thanks You For Executing My Script"
@@ -89,8 +89,8 @@ local Section = Tab:NewSection("Key Will Change Every 24 Hours")
 local Section = Tab:NewSection("When It Has Passed 24 Hours The Key Will Change")
 local Section = Tab:NewSection("The Key Will Change At My Random Hours In")
 local Section = Tab:NewSection("Game Spin The Wheel")
-Section:NewButton("Key = O32c~Qe34q~R3cdO~HgcI", "Click To Copy", function()
-	setclipboard("O32c~Qe34q~R3cdO~HgcI")
+Section:NewButton("Key = 3Erty2~Jh5fG-P0ld2_Abcd3", "Click To Copy", function()
+	setclipboard("3Erty2~Jh5fG-P0ld2_Abcd3")
 starterGui:SetCore("SendNotification",{
 Title = "Message",
 Text = "Successfully Copy Key"
@@ -790,8 +790,29 @@ end)
 local Tab = Window:NewTab("Credit")
 local Section = Tab:NewSection("= Showcase =")
 local Section = Tab:NewSection("   GamerAbhiyan")
-local Section = Tab:NewSection("   ★ไก่5ดาว★")
+Section:NewButton("Copy Link Channel", " ", function()
+	setclipboard("https://youtube.com/@GamerAbhiyan-MIXUE")
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "Successfully Copy Link"
+})
+end)
+local Section = Tab:NewSection("   DeMon_caster")
+Section:NewButton("Copy Link Channel", " ", function()
+	setclipboard("https://youtube.com/@demon_caster8629")
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "Successfully Copy Link"
+})
+end)
 local Section = Tab:NewSection("   ???")
+Section:NewButton("Copy Link Channel", " ", function()
+	setclipboard("???")
+starterGui:SetCore("SendNotification",{
+Title = "Message",
+Text = "Successfully Copy Link"
+})
+end)
 local Section = Tab:NewSection("   ???")
 local Section = Tab:NewSection("= Owner =")
 local Section = Tab:NewSection("   GamerAbhiyan")
